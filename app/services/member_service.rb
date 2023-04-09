@@ -1,4 +1,4 @@
-class Member
+class MemberService
   def self.get_members(nation)
     get_url("/api/v1/characters?affiliation=#{nation}")
   end
