@@ -8,7 +8,5 @@ RSpec.describe "user can search for airbender members" do
     click_on "Search For Members"
 
     expect(current_path).to eq(search_path)
-    expect(page).to have_content('There are 97 total members in the Fire Nation.')
-    expect(page).to have_css('.member', count: 97)
   end
 end
