@@ -1,9 +1,15 @@
 class Member
-  attr_reader :name, :role, :house, :patronus
+  attr_reader :name, 
+              :allies, 
+              :enemies, 
+              :affiliation
+              # :photo
 
   def initialize(data)
     @name = data[:name]
-    @role = data[:role]
-    @house = data[:house]
+    @allies = data[:allies]
+    @enemies = data[:enemies]
+    @affiliation = data[:affiliation]
+    # @photo = data[:photoUrl]
   end
 end
