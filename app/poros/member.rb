@@ -5,6 +5,5 @@ class Member
     @name = data[:name]
     @role = data[:role]
     @house = data[:house]
-    @patronus = data[:patronus]
   end
 end

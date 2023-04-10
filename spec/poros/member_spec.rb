@@ -15,6 +15,5 @@ RSpec.describe Member do
     expect(member.name).to eq("Chan (Fire Nation admiral)")
     expect(member.role).to eq("Fire Nation Navy")
     expect(member.house).to eq("Fire Nation Navy")
-    expect(member.patronus).to eq(nil)
   end
 end
